@@ -33,6 +33,9 @@ public class DrawingModel {
 			// WHEN YOU ADD ANOTHER SUBCLASS OF CIRCLESHAPE YOU NEED TO
 			// CREATE IT AND ADD IT TO MODEL
 
+			c = new CircleShape();
+			this.add(c);
+
       		c = new SamCircle();
       		this.add(c);
 
